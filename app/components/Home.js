@@ -57,7 +57,16 @@ export default class Home extends Component {
             <Button style={{margin:10}} onClick={this.showModal}><Icon type="plus-circle-o"/>New Project</Button>
             <Button style={{margin:10}}><Icon type="folder-open"/>Open Project</Button>
           </div>
-
+          <div>
+            <Card style={{margin:10}}>App1 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App2 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App3 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App4 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App5 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App6 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App7 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+            <Card style={{margin:10}}>App8 <Button type="primary" style={{marginLeft:1000}}>Run</Button></Card>
+          </div>
           <Modal ref="modal"
                  visible={this.state.visible}
                  title="New Project" onOk={this.handleOk} onCancel={this.handleCancel}
